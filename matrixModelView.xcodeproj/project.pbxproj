@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4A5D778158B58520086ABEB /* songho.ca.icns in Resources */ = {isa = PBXBuildFile; fileRef = E4A5D777158B58520086ABEB /* songho.ca.icns */; };
+		E4B76E4D153DD4B3002CD4A9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B76E4C153DD4B3002CD4A9 /* Cocoa.framework */; };
+		E4B76E57153DD4B3002CD4A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4B76E55153DD4B3002CD4A9 /* InfoPlist.strings */; };
+		E4B76E59153DD4B3002CD4A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B76E58153DD4B3002CD4A9 /* main.m */; };
+		E4B76E5D153DD4B3002CD4A9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E4B76E5B153DD4B3002CD4A9 /* Credits.rtf */; };
+		E4B76E60153DD4B3002CD4A9 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4B76E5F153DD4B3002CD4A9 /* AppDelegate.mm */; };
+		E4B76E63153DD4B4002CD4A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4B76E61153DD4B4002CD4A9 /* MainMenu.xib */; };
+		E4B76E6B153DD4B4002CD4A9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B76E6A153DD4B4002CD4A9 /* SenTestingKit.framework */; };
+		E4B76E6C153DD4B4002CD4A9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B76E4C153DD4B3002CD4A9 /* Cocoa.framework */; };
+		E4B76E74153DD4B4002CD4A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4B76E72153DD4B4002CD4A9 /* InfoPlist.strings */; };
+		E4B76E77153DD4B4002CD4A9 /* matrixModelViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B76E76153DD4B4002CD4A9 /* matrixModelViewTests.m */; };
+		E4B76E86153DD60B002CD4A9 /* ViewGL.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4B76E85153DD60A002CD4A9 /* ViewGL.mm */; };
+		E4DD438415834CF300ADF91F /* Matrices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4DD437E15834CF300ADF91F /* Matrices.cpp */; };
+		E4DD438515834CF300ADF91F /* ModelGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4DD438015834CF300ADF91F /* ModelGL.cpp */; };
+		E4DD43891583500300ADF91F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DD43881583500300ADF91F /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4B76E6D153DD4B4002CD4A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4B76E3F153DD4B3002CD4A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B76E47153DD4B3002CD4A9;
+			remoteInfo = matrixModelView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4A5D777158B58520086ABEB /* songho.ca.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = songho.ca.icns; sourceTree = "<group>"; };
+		E4B76E48153DD4B3002CD4A9 /* matrixModelView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = matrixModelView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B76E4C153DD4B3002CD4A9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E4B76E4F153DD4B3002CD4A9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E4B76E50153DD4B3002CD4A9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E4B76E51153DD4B3002CD4A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4B76E54153DD4B3002CD4A9 /* matrixModelView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "matrixModelView-Info.plist"; sourceTree = "<group>"; };
+		E4B76E56153DD4B3002CD4A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4B76E58153DD4B3002CD4A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4B76E5A153DD4B3002CD4A9 /* matrixModelView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "matrixModelView-Prefix.pch"; sourceTree = "<group>"; };
+		E4B76E5C153DD4B3002CD4A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E4B76E5E153DD4B3002CD4A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4B76E5F153DD4B3002CD4A9 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		E4B76E62153DD4B4002CD4A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E4B76E69153DD4B4002CD4A9 /* matrixModelViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = matrixModelViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B76E6A153DD4B4002CD4A9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E4B76E71153DD4B4002CD4A9 /* matrixModelViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "matrixModelViewTests-Info.plist"; sourceTree = "<group>"; };
+		E4B76E73153DD4B4002CD4A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4B76E75153DD4B4002CD4A9 /* matrixModelViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrixModelViewTests.h; sourceTree = "<group>"; };
+		E4B76E76153DD4B4002CD4A9 /* matrixModelViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = matrixModelViewTests.m; sourceTree = "<group>"; };
+		E4B76E84153DD60A002CD4A9 /* ViewGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewGL.h; sourceTree = "<group>"; };
+		E4B76E85153DD60A002CD4A9 /* ViewGL.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewGL.mm; sourceTree = "<group>"; };
+		E4DD437D15834CF300ADF91F /* cameraSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cameraSimple.h; sourceTree = "<group>"; };
+		E4DD437E15834CF300ADF91F /* Matrices.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrices.cpp; sourceTree = "<group>"; };
+		E4DD437F15834CF300ADF91F /* Matrices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrices.h; sourceTree = "<group>"; };
+		E4DD438015834CF300ADF91F /* ModelGL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ModelGL.cpp; sourceTree = "<group>"; };
+		E4DD438115834CF300ADF91F /* ModelGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelGL.h; sourceTree = "<group>"; };
+		E4DD438315834CF300ADF91F /* teapot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = teapot.h; sourceTree = "<group>"; };
+		E4DD43881583500300ADF91F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		E4DD438A158354A500ADF91F /* Vectors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vectors.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B76E45153DD4B3002CD4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DD43891583500300ADF91F /* OpenGL.framework in Frameworks */,
+				E4B76E4D153DD4B3002CD4A9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B76E65153DD4B4002CD4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B76E6B153DD4B4002CD4A9 /* SenTestingKit.framework in Frameworks */,
+				E4B76E6C153DD4B4002CD4A9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4B76E3D153DD4B3002CD4A9 = {
+			isa = PBXGroup;
+			children = (
+				E4B76E52153DD4B3002CD4A9 /* matrixModelView */,
+				E4B76E6F153DD4B4002CD4A9 /* matrixModelViewTests */,
+				E4B76E4B153DD4B3002CD4A9 /* Frameworks */,
+				E4B76E49153DD4B3002CD4A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B76E49153DD4B3002CD4A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4B76E48153DD4B3002CD4A9 /* matrixModelView.app */,
+				E4B76E69153DD4B4002CD4A9 /* matrixModelViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B76E4B153DD4B3002CD4A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4DD43881583500300ADF91F /* OpenGL.framework */,
+				E4B76E4C153DD4B3002CD4A9 /* Cocoa.framework */,
+				E4B76E6A153DD4B4002CD4A9 /* SenTestingKit.framework */,
+				E4B76E4E153DD4B3002CD4A9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4B76E4E153DD4B3002CD4A9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4B76E4F153DD4B3002CD4A9 /* AppKit.framework */,
+				E4B76E50153DD4B3002CD4A9 /* CoreData.framework */,
+				E4B76E51153DD4B3002CD4A9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E4B76E52153DD4B3002CD4A9 /* matrixModelView */ = {
+			isa = PBXGroup;
+			children = (
+				E4B76E61153DD4B4002CD4A9 /* MainMenu.xib */,
+				E4B76E5E153DD4B3002CD4A9 /* AppDelegate.h */,
+				E4B76E5F153DD4B3002CD4A9 /* AppDelegate.mm */,
+				E4B76E84153DD60A002CD4A9 /* ViewGL.h */,
+				E4B76E85153DD60A002CD4A9 /* ViewGL.mm */,
+				E4DD438115834CF300ADF91F /* ModelGL.h */,
+				E4DD438015834CF300ADF91F /* ModelGL.cpp */,
+				E4DD437F15834CF300ADF91F /* Matrices.h */,
+				E4DD437E15834CF300ADF91F /* Matrices.cpp */,
+				E4DD438A158354A500ADF91F /* Vectors.h */,
+				E4DD438315834CF300ADF91F /* teapot.h */,
+				E4DD437D15834CF300ADF91F /* cameraSimple.h */,
+				E4B76E53153DD4B3002CD4A9 /* Supporting Files */,
+			);
+			path = matrixModelView;
+			sourceTree = "<group>";
+		};
+		E4B76E53153DD4B3002CD4A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4A5D777158B58520086ABEB /* songho.ca.icns */,
+				E4B76E54153DD4B3002CD4A9 /* matrixModelView-Info.plist */,
+				E4B76E55153DD4B3002CD4A9 /* InfoPlist.strings */,
+				E4B76E58153DD4B3002CD4A9 /* main.m */,
+				E4B76E5A153DD4B3002CD4A9 /* matrixModelView-Prefix.pch */,
+				E4B76E5B153DD4B3002CD4A9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4B76E6F153DD4B4002CD4A9 /* matrixModelViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4B76E75153DD4B4002CD4A9 /* matrixModelViewTests.h */,
+				E4B76E76153DD4B4002CD4A9 /* matrixModelViewTests.m */,
+				E4B76E70153DD4B4002CD4A9 /* Supporting Files */,
+			);
+			path = matrixModelViewTests;
+			sourceTree = "<group>";
+		};
+		E4B76E70153DD4B4002CD4A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4B76E71153DD4B4002CD4A9 /* matrixModelViewTests-Info.plist */,
+				E4B76E72153DD4B4002CD4A9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B76E47153DD4B3002CD4A9 /* matrixModelView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B76E7A153DD4B4002CD4A9 /* Build configuration list for PBXNativeTarget "matrixModelView" */;
+			buildPhases = (
+				E4B76E44153DD4B3002CD4A9 /* Sources */,
+				E4B76E45153DD4B3002CD4A9 /* Frameworks */,
+				E4B76E46153DD4B3002CD4A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = matrixModelView;
+			productName = matrixModelView;
+			productReference = E4B76E48153DD4B3002CD4A9 /* matrixModelView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4B76E68153DD4B4002CD4A9 /* matrixModelViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B76E7D153DD4B4002CD4A9 /* Build configuration list for PBXNativeTarget "matrixModelViewTests" */;
+			buildPhases = (
+				E4B76E64153DD4B4002CD4A9 /* Sources */,
+				E4B76E65153DD4B4002CD4A9 /* Frameworks */,
+				E4B76E66153DD4B4002CD4A9 /* Resources */,
+				E4B76E67153DD4B4002CD4A9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4B76E6E153DD4B4002CD4A9 /* PBXTargetDependency */,
+			);
+			name = matrixModelViewTests;
+			productName = matrixModelViewTests;
+			productReference = E4B76E69153DD4B4002CD4A9 /* matrixModelViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B76E3F153DD4B3002CD4A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E4B76E42153DD4B3002CD4A9 /* Build configuration list for PBXProject "matrixModelView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4B76E3D153DD4B3002CD4A9;
+			productRefGroup = E4B76E49153DD4B3002CD4A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4B76E47153DD4B3002CD4A9 /* matrixModelView */,
+				E4B76E68153DD4B4002CD4A9 /* matrixModelViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4B76E46153DD4B3002CD4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B76E57153DD4B3002CD4A9 /* InfoPlist.strings in Resources */,
+				E4B76E5D153DD4B3002CD4A9 /* Credits.rtf in Resources */,
+				E4B76E63153DD4B4002CD4A9 /* MainMenu.xib in Resources */,
+				E4A5D778158B58520086ABEB /* songho.ca.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B76E66153DD4B4002CD4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B76E74153DD4B4002CD4A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B76E67153DD4B4002CD4A9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B76E44153DD4B3002CD4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B76E59153DD4B3002CD4A9 /* main.m in Sources */,
+				E4B76E60153DD4B3002CD4A9 /* AppDelegate.mm in Sources */,
+				E4B76E86153DD60B002CD4A9 /* ViewGL.mm in Sources */,
+				E4DD438415834CF300ADF91F /* Matrices.cpp in Sources */,
+				E4DD438515834CF300ADF91F /* ModelGL.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B76E64153DD4B4002CD4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B76E77153DD4B4002CD4A9 /* matrixModelViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4B76E6E153DD4B4002CD4A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4B76E47153DD4B3002CD4A9 /* matrixModelView */;
+			targetProxy = E4B76E6D153DD4B4002CD4A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4B76E55153DD4B3002CD4A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4B76E56153DD4B3002CD4A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4B76E5B153DD4B3002CD4A9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4B76E5C153DD4B3002CD4A9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E4B76E61153DD4B4002CD4A9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4B76E62153DD4B4002CD4A9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E4B76E72153DD4B4002CD4A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4B76E73153DD4B4002CD4A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4B76E78153DD4B4002CD4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		E4B76E79153DD4B4002CD4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				SDKROOT = macosx10.6;
+				SYMROOT = build;
+			};
+			name = Release;
+		};
+		E4B76E7B153DD4B4002CD4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "matrixModelView/matrixModelView-Prefix.pch";
+				INFOPLIST_FILE = "matrixModelView/matrixModelView-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SHARED_PRECOMPS_DIR = build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B76E7C153DD4B4002CD4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "matrixModelView/matrixModelView-Prefix.pch";
+				INFOPLIST_FILE = "matrixModelView/matrixModelView-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SHARED_PRECOMPS_DIR = build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E4B76E7E153DD4B4002CD4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/matrixModelView.app/Contents/MacOS/matrixModelView";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "matrixModelView/matrixModelView-Prefix.pch";
+				INFOPLIST_FILE = "matrixModelViewTests/matrixModelViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E4B76E7F153DD4B4002CD4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/matrixModelView.app/Contents/MacOS/matrixModelView";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "matrixModelView/matrixModelView-Prefix.pch";
+				INFOPLIST_FILE = "matrixModelViewTests/matrixModelViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B76E42153DD4B3002CD4A9 /* Build configuration list for PBXProject "matrixModelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B76E78153DD4B4002CD4A9 /* Debug */,
+				E4B76E79153DD4B4002CD4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B76E7A153DD4B4002CD4A9 /* Build configuration list for PBXNativeTarget "matrixModelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B76E7B153DD4B4002CD4A9 /* Debug */,
+				E4B76E7C153DD4B4002CD4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B76E7D153DD4B4002CD4A9 /* Build configuration list for PBXNativeTarget "matrixModelViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B76E7E153DD4B4002CD4A9 /* Debug */,
+				E4B76E7F153DD4B4002CD4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B76E3F153DD4B3002CD4A9 /* Project object */;
+}
